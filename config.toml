@@ -1,44 +1,48 @@
-﻿baseURL = "https://portfoliohubs.github.io/MICKY/"
+baseURL = "https://portfoliohubs.github.io/MICKY/"
 languageCode = "en-us"
-title = "Dr. Hussein Ahmed Abdelaziz Mansour"
+title = "Dr. Hussein Ahmed Abdelaziz"
 defaultContentLanguage = "en"
 
 [params]
   # Hero Section
   [params.hero]
     name = "Dr. Hussein Ahmed Abdelaziz Mansour"
-    tagline = "Internship"
+    tagline = "Dentist - Internship"
     graduation = "Graduated 2025 - Egyptian-Russian University"
     profile_image = "https://github.com/user-attachments/assets/c4bb6541-3ccf-4113-b89f-5af40f38b562"
-    profile_image_alt = "Profile photo of Dr. Hussein Ahmed Abdelaziz Mansour"
+    profile_image_alt = "Profile photo of Dr. Hussein Ahmed Abdelaziz"
     
     [params.hero.current_position]
-      role = "Internship"
-      clinic = "Internship at Egyptian-Russian University Hospital"
+      role = "Dentist (Internship)"
+      clinic = "Egyptian-Russian University Hospital"
 
   [params.seo]
     description = "Professional dental portfolio of Dr. Hussein Ahmed Abdelaziz Mansour"
     doctor_name_en = "Dr. Hussein Ahmed Abdelaziz Mansour"
     doctor_name_ar = "د. حسين أحمد عبدالعزيز منصور"
-    site_name = "Dr. Hussein Ahmed Abdelaziz Mansour"
+    site_name = "Dr. Hussein Ahmed Abdelaziz"
     og_image = "https://github.com/user-attachments/assets/ff4c35cd-6576-418c-ab94-8ad10c5bfecb"
     favicon_image = "https://github.com/user-attachments/assets/ff4c35cd-6576-418c-ab94-8ad10c5bfecb"
     twitter_handle = ""
     keywords = [
-      "dentist",
-      "Dr. Hussein Ahmed Abdelaziz",
-      "Dr. Hussein Ahmed Abdelaziz Mansour",
-      "Dr. Hussein Mansour",
+      "دكتور حسين أحمد عبدالعزيز",
+      "دكتور حسين احمد عبدالعزيز اسنان",
+      "طبيب اسنان",
+      "دكتور حسين منصور اسنان",
+      "دكتور حسين منصور",
+      "دكتور حسين أحمد عبدالعزيز اسنان الروسية",
+      "Dr.Hussein Ahmed Abdelaziz",
       "Dentist Hussein Ahmed Abdelaziz",
-      "Dr. Hussein Ahmed Abdelaziz Dentist",
-      "Dr. Hussein Mansour Dentist"
+      "Dr.Hussein Ahmed Abdelaziz Dentist",
+      "Dr.Hussein Mansour",
+      "Dr.Hussein Mansour Dentist"
     ]
     keywords_ar = [
-      "طبيب أسنان",
       "دكتور حسين أحمد عبدالعزيز",
-      "دكتور حسين أحمد عبدالعزيز اسنان",
-      "دكتور حسين منصور",
+      "دكتور حسين احمد عبدالعزيز اسنان",
+      "طبيب اسنان",
       "دكتور حسين منصور اسنان",
+      "دكتور حسين منصور",
       "دكتور حسين أحمد عبدالعزيز اسنان الروسية"
     ]
 
@@ -94,14 +98,46 @@ defaultContentLanguage = "en"
       phd_degree = "PhD Degree"
       rights_reserved = "All rights reserved"
 
+  # Skills Section
   [params.skills]
-    clinical = ["Gp skills"]
-    digital = ["Dental Photography"]
-    soft = ["Effective Communication", "Patient Management"]
+    clinical = [
+      "General Practitioner (GP) Skills",
+      "Oral Surgery (Teeth & Root Extraction)",
+      "Endodontics (Root Canal Treatment)",
+      "Operative Dentistry (Restorations)",
+      "Fixed Prosthodontics (Crown & Bridge)",
+      "Scaling & Prophylaxis",
+      "Pediatric Dental Procedures"
+    ]
     
+    digital = [
+      "Dental Photography"
+    ]
+    
+    soft = [
+      "Patient Management",
+      "Pediatric Patient Management",
+      "Effective Communication",
+      "Time Management",
+      "Team Collaboration",
+      "Attention to Detail",
+      "Problem Solving"
+    ]
+
+  # Education Section
   [params.education]
     university = "Egyptian-Russian University"
     graduation_year = "2025"
+    
+    [params.education.master]
+      obtained = false
+      title = "Master's Degree"
+      year = ""
+    
+    [params.education.phd]
+      obtained = false
+      title = "PhD Degree"
+      year = ""
     
     [[params.education.timeline]]
       year = "2020"
@@ -111,10 +147,11 @@ defaultContentLanguage = "en"
       year = "2025"
       event = "Graduated from faculty of dentistry"
 
+  # Clinical Cases Section
   [[params.clinical_cases]]
     enabled = true
     category = "Crown"
-    category_ar = "تركيبات وتيجان"
+    category_ar = "التركيبات الثابتة والطرابيش"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/a7ba2e39-b5cd-4e21-b8a7-14b87f348ad9"
@@ -122,14 +159,16 @@ defaultContentLanguage = "en"
       description = "Fixed Bridge from lower left 8 to lower left 4"
       alt_ar = "حالة كوبري من ضرس العقل الي الضرس رقم 4"
       description_ar = "حالة كوبري من ضرس العقل الي الضرس رقم 4"
+
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/efe3eceb-5531-443f-b683-3014dcbfe303"
+      photo = "https://github.com/user-attachments/assets/abd34227-92af-4370-b076-842df56343f0"
       alt = "Crown after endo and post and core for upper right 5"
       description = "Crown after endo and post and core for upper right 5"
       alt_ar = "طربوش لضرس محشي عصب"
       description_ar = "طربوش لضرس محشي عصب"
+
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/abd34227-92af-4370-b076-842df56343f0"
+      photo = "https://github.com/user-attachments/assets/3547f445-626b-4810-9ff0-0c81b99aa85e"
       alt = "Fixed Bridge on lower right 5 and 7"
       description = "Fixed Bridge on lower right 5 and 7"
       alt_ar = "كوبري علي الجانب السفلي الايمن"
@@ -138,10 +177,10 @@ defaultContentLanguage = "en"
   [[params.clinical_cases]]
     enabled = true
     category = "Cosmetics and Esthetics"
-    category_ar = "تجميل الأسنان"
+    category_ar = "التجميل والحشو التجميلي"
     
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/3547f445-626b-4810-9ff0-0c81b99aa85e"
+      photo = "https://github.com/user-attachments/assets/efe3eceb-5531-443f-b683-3014dcbfe303"
       alt = "Class 4 Esthetic restoration for upper central incisors"
       description = "Class 4 Esthetic restoration for upper central incisors"
       alt_ar = "حشو تجميلي للاسنان الامامية"
@@ -150,7 +189,7 @@ defaultContentLanguage = "en"
   [[params.clinical_cases]]
     enabled = true
     category = "Endodontics"
-    category_ar = "علاج الجذور"
+    category_ar = "حشو العصب وعلاج الجذور"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/1d59e56c-d857-43b7-a82f-8c2b645b3c37"
@@ -158,30 +197,35 @@ defaultContentLanguage = "en"
       description = "Endo for upper right 4"
       alt_ar = "حشو عصب لضرس علوي"
       description_ar = "حشو عصب لضرس علوي"
+
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/9fa650c8-c450-41ba-8b94-49b8e45f3b95"
       alt = "Endo for lower right 4"
       description = "Endo for lower right 4"
       alt_ar = "حشو عصب لضرس سفلي"
       description_ar = "حشو عصب لضرس سفلي"
+
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/2cbfc24b-c342-4c15-aa86-86a05c6ab219"
       alt = "Endo for lower right 6"
       description = "Endo for lower right 6"
       alt_ar = "حشو عصب لضرس سفلي"
       description_ar = "حشو عصب لضرس سفلي"
+
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/596d9207-2c71-4fbf-bdb8-0ec1d19598c0"
       alt = "Endo for lower right 6"
       description = "Endo for lower right 6"
       alt_ar = "حشو عصب لضرس سفلي"
       description_ar = "حشو عصب لضرس سفلي"
+
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/333dc85a-cd3d-4df1-b89a-3412c7651439"
       alt = "Endo for lower left 6"
       description = "Endo for lower left 6"
       alt_ar = "حشو عصب لضرس سفلي"
       description_ar = "حشو عصب لضرس سفلي"
+
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/c282c3a2-e2ea-412f-b61f-ef6a771a410f"
       alt = "Endo for upper 4"
@@ -200,38 +244,76 @@ defaultContentLanguage = "en"
       description = "Pulpotomy with stainless steel crown on lower right D and E"
       alt_ar = "حشو عصب لضروس لبنية و طربوشين"
       description_ar = "حشو عصب لضروس لبنية و طربوشين"
-
+      
+  # Contact Section
   [params.contact]
-    phone = "01016367030"
-    whatsapp = "1016367030"
+    phone = "+201016367030"
+    whatsapp = "+201016367030"
     email = "Huss202003@gmail.com"
-    location_address = "القاهرة مدينة بدر ميدان الجامعة المصرية الروسية"
-    latitude = "30.14228604488797"
-    longitude = "31.718524913662836"
+    instagram = ""
+    facebook = ""
+    linkedin = ""
+    
+    [params.contact.location]
+      enabled = true
+      address = "Cairo, Badr City, Egyptian-Russian University Square"
+      latitude = "30.14228604488797"
+      longitude = "31.718524913662836"
 
+# Arabic Translations
 [params.ar]
   [params.ar.hero]
     name = "د. حسين أحمد عبدالعزيز منصور"
     tagline = "طبيب امتياز"
     graduation = "تخرج 2025 - الجامعة المصرية الروسية"
+    profile_image_alt = "صورة الملف الشخصي للدكتور حسين أحمد عبدالعزيز"
     
     [params.ar.hero.current_position]
       role = "طبيب امتياز"
-      clinic = "طبيب امتياز في مستشفى الجامعة المصرية الروسية"
+      clinic = "مستشفى الجامعة المصرية الروسية"
   
   [params.ar.skills]
-    clinical = ["جراحة خلع، حشو عصب، حشو تجميلي، تركيبات ثابتة"]
-    digital = ["التصوير الفوتوغرافي للأسنان"]
-    soft = ["التواصل الفعال، إدارة المرضى"]
-  
+    clinical = [
+      "طبيب أسنان عام",
+      "جراحة : خلع الضروس و الجذور",
+      "حشو عصب",
+      "حشو عادي",
+      "تركيب طربوش و كوبري",
+      "ازالة الجير تنظيف اللثة",
+      "بعض شغل الاطفال"
+    ]
+    
+    digital = [
+      "التصوير الفوتوغرافي للأسنان (Dental Photography)"
+    ]
+    
+    soft = [
+      "إدارة وعلاج المرضى",
+      "إدارة وأسلوب التعامل مع الأطفال",
+      "التواصل الفعّال",
+      "إدارة الوقت",
+      "العمل الجماعي المشترك",
+      "الانتباه الدقيق للتفاصيل",
+      "حل المشكلات واتخاذ القرار"
+    ]
+    
   [params.ar.education]
     university = "الجامعة المصرية الروسية"
+    
+    [params.ar.education.master]
+      title = "درجة الماجستير"
+    
+    [params.ar.education.phd]
+      title = "درجة الدكتوراه"
     
     [[params.ar.education.timeline]]
       event = "٢٠٢٠ بداية الكلية"
     
     [[params.ar.education.timeline]]
       event = "٢٠٢٥ التخرج من الكلية"  
+
+  [params.ar.contact.location]
+    address = "القاهرة، مدينة بدر، ميدان الجامعة المصرية الروسية"
 
   [params.ar.ui]
     [params.ar.ui.nav]
@@ -242,3 +324,41 @@ defaultContentLanguage = "en"
       cases_short = "الحالات"
       blog = "المدونة"
       contact = "التواصل"
+
+    [params.ar.ui.skills]
+      title = "المهارات المهنية"
+      clinical_title = "المهارات السريرية"
+      digital_title = "المهارات الرقمية"
+      soft_title = "المهارات الشخصية"
+
+    [params.ar.ui.education]
+      title = "التعليم والخط الزمني"
+      graduated_label = "تخرج"
+      career_timeline_title = "الخط الزمني المهني"
+      courses_title = "الدورات والشهادات"
+
+    [params.ar.ui.cases]
+      title = "الحالات السريرية"
+      subtitle = "معرض الحالات السريرية"
+
+    [params.ar.ui.blog]
+      title = "أحدث المقالات"
+      subtitle = "رؤى ومعرفة"
+      empty_text = "لا توجد مقالات بعد"
+
+    [params.ar.ui.contact]
+      title = "تواصل معي"
+      subtitle = "لنتواصل ونتعاون"
+      follow_me_title = "تابعني"
+
+    [params.ar.ui.labels]
+      now_working_as = "أعمل حالياً كـ"
+      at = "في"
+      phone = "الهاتف"
+      whatsapp = "واتساب"
+      email = "البريد الإلكتروني"
+      location = "الموقع"
+      get_directions = "احصل على الاتجاهات"
+      masters_degree = "درجة الماجستير"
+      phd_degree = "درجة الدكتوراه"
+      rights_reserved = "جميع الحقوق محفوظة"
