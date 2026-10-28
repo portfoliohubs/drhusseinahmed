@@ -211,6 +211,37 @@ defaultContentLanguage = "en"
       description = "Endo for lower right 6"
       alt_ar = "حشو عصب لضرس سفلي"
       description_ar = "حشو عصب لضرس سفلي"
+        [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/c53201a1-6a55-4312-9817-e3f19f2fdfa0"
+      alt = "Esthetics Class 4 Upper Right Central"
+      description = "Esthetics Class 4 Upper Right Central"
+      alt_ar = "حشو تجملي"
+      description_ar = "حشو تجملي"
+
+
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/c53201a1-6a55-4312-9817-e3f19f2fdfa0"
+      alt = "Biomemtic Coronal Restoration (Ever x) in EndoT.T. Lower Left 7"
+      description = "Biomemtic Coronal Restoration (Ever x) in EndoT.T. Lower Left 7 "
+      alt_ar = "تقفيل (حشو نهائي) ضرس عصب بدل طربوش"
+      description_ar = "تقفيل (حشو نهائي) ضرس عصب بدل طربوش"
+
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/b765dbc4-5fcb-47b1-b6e6-a4ff97b31788"
+      alt = "2 Class 3 back to back Upper Centrals"
+      description = "2 Class 3 back to back Upper Centrals"
+      alt_ar = "حشو اسنان امامية"
+      description_ar = "حشو اسنان امامية"
+
+
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/b765dbc4-5fcb-47b1-b6e6-a4ff97b31788"
+      alt = "Amalgam Replacement Class 1 Lower left 7"
+      description = "Amalgam Replacement Class 1 Lower left 7"
+      alt_ar = "تبديل حشو فضي بحشو كومبوزيت"
+      description_ar = "تبديل حشو فضي بحشو كومبوزيت"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/596d9207-2c71-4fbf-bdb8-0ec1d19598c0"
