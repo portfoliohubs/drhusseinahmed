@@ -188,7 +188,7 @@ defaultContentLanguage = "en"
 
 
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/c53201a1-6a55-4312-9817-e3f19f2fdfa0"
+      photo = "https://github.com/user-attachments/assets/b765dbc4-5fcb-47b1-b6e6-a4ff97b31788"
       alt = "Esthetics Class 4 Upper Right Central"
       description = "Esthetics Class 4 Upper Right Central"
       alt_ar = "حشو تجملي"
@@ -197,7 +197,7 @@ defaultContentLanguage = "en"
 
 
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/c53201a1-6a55-4312-9817-e3f19f2fdfa0"
+      photo = "https://github.com/user-attachments/assets/99a4cb18-ba14-4aee-83f6-c67f6ae0e29b"
       alt = "Biomemtic Coronal Restoration (Ever x) in EndoT.T. Lower Left 7"
       description = "Biomemtic Coronal Restoration (Ever x) in EndoT.T. Lower Left 7 "
       alt_ar = "تقفيل (حشو نهائي) ضرس عصب بدل طربوش"
@@ -205,7 +205,7 @@ defaultContentLanguage = "en"
 
 
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/b765dbc4-5fcb-47b1-b6e6-a4ff97b31788"
+      photo = "https://github.com/user-attachments/assets/c53201a1-6a55-4312-9817-e3f19f2fdfa0"
       alt = "2 Class 3 back to back Upper Centrals"
       description = "2 Class 3 back to back Upper Centrals"
       alt_ar = "حشو اسنان امامية"
@@ -213,7 +213,7 @@ defaultContentLanguage = "en"
 
 
     [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/b765dbc4-5fcb-47b1-b6e6-a4ff97b31788"
+      photo = "https://github.com/user-attachments/assets/f59c2b38-25be-49fd-b7b2-a80b8352dea0"
       alt = "Amalgam Replacement Class 1 Lower left 7"
       description = "Amalgam Replacement Class 1 Lower left 7"
       alt_ar = "تبديل حشو فضي بحشو كومبوزيت"
