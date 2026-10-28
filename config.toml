@@ -246,12 +246,6 @@ defaultContentLanguage = "en"
       description_ar = "حشو عصب لضرس سفلي"
        
 
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/b765dbc4-5fcb-47b1-b6e6-a4ff97b31788"
-      alt = "Amalgam Replacement Class 1 Lower left 7"
-      description = "Amalgam Replacement Class 1 Lower left 7"
-      alt_ar = "تبديل حشو فضي بحشو كومبوزيت"
-      description_ar = "تبديل حشو فضي بحشو كومبوزيت"
 
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/596d9207-2c71-4fbf-bdb8-0ec1d19598c0"
