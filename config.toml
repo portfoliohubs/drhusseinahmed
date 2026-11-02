@@ -7,13 +7,13 @@ defaultContentLanguage = "en"
   # Hero Section
   [params.hero]
     name = "Dr. Hussein Ahmed Abdelaziz Mansour"
-    tagline = "Dentist - Internship"
+    tagline = "Dentist"
     graduation = "Graduated 2025 - Egyptian-Russian University"
     profile_image = "https://github.com/user-attachments/assets/c4bb6541-3ccf-4113-b89f-5af40f38b562"
     profile_image_alt = "Profile photo of Dr. Hussein Ahmed Abdelaziz"
     
     [params.hero.current_position]
-      role = "Dentist (Internship)"
+      role = "Dentist"
       clinic = "Egyptian-Russian University Hospital"
 
   [params.seo]
