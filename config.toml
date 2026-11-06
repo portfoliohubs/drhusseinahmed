@@ -299,12 +299,12 @@ defaultContentLanguage = "en"
 [params.ar]
   [params.ar.hero]
     name = "د. حسين أحمد عبدالعزيز منصور"
-    tagline = "طبيب امتياز"
+    tagline = "طبيب أسنان"
     graduation = "تخرج 2025 - الجامعة المصرية الروسية"
     profile_image_alt = "صورة الملف الشخصي للدكتور حسين أحمد عبدالعزيز"
     
     [params.ar.hero.current_position]
-      role = "طبيب امتياز"
+      role = "طبيب أسنان"
       clinic = "مستشفى الجامعة المصرية الروسية"
   
   [params.ar.skills]
