@@ -147,6 +147,10 @@ defaultContentLanguage = "en"
       year = "2025"
       event = "Graduated from faculty of dentistry"
 
+[[params.education.timeline]]
+      year = "2026"
+      event = "End of the internship"
+
   # Clinical Cases Section
   [[params.clinical_cases]]
     enabled = true
@@ -345,7 +349,11 @@ defaultContentLanguage = "en"
       event = "٢٠٢٠ بداية الكلية"
     
     [[params.ar.education.timeline]]
-      event = "٢٠٢٥ التخرج من الكلية"  
+      event = "٢٠٢٥ التخرج من الكلية"
+
+[[params.ar.education.timeline]]
+      event = "٢٠٢٦ انتهاء فترة الامتياز"  
+
 
   [params.ar.contact.location]
     address = "القاهرة، مدينة بدر، ميدان الجامعة المصرية الروسية"
